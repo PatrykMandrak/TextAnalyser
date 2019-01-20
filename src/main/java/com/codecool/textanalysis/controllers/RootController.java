@@ -6,8 +6,6 @@ import com.codecool.textanalysis.views.RootView;
 import com.codecool.textanalysis.services.StatisticalAnalysis;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
 import java.util.HashMap;
 import java.util.Map;
 

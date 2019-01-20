@@ -17,7 +17,7 @@ public class RootView {
     }
 
     public void displayFileName(String filename) {
-        output.println("==" + filename + "==");
+        output.println("\n==" + filename + "==");
     }
 
     public void displayCharCount(int size) {
@@ -62,6 +62,6 @@ public class RootView {
     }
 
     public void displayBenchmarkTime(double time) {
-        output.println(String.format("Benchmark time: %.2f secs", time));
+        output.println(String.format("\nBenchmark time: %.2f secs", time));
     }
 }
