@@ -116,4 +116,9 @@ public class RootController {
         rootView.displayPercentageOfAllLetters(map);
     }
 
+    private void showBenchmark() {
+        long estimatedTime = System.nanoTime() - startingTime;
+        double time = (double)estimatedTime / 1000000000.0;
+        rootView.displayBenchmarkTime(time);
+    }
 }
